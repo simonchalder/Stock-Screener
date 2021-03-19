@@ -8,6 +8,8 @@ GitHub Url: https://github.com/simonchalder/Image-Converter
 
 Requests library Page: https://2.python-requests.org/en/master/
 
+All data taken from the Alpha Vantage API: https://www.alphavantage.co/documentation/
+
 Stock Screener is a desktop GUI application for screening a particular stock against logical criteria to determine if the stock is worthy of further investigation
 
 The criteria used in this application are taken from Robbie Burns book 'The Naked Trader: How Anyone Can Make Money Trading Shares'
