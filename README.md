@@ -25,6 +25,8 @@ The app, still under development is written in Python using the requests library
 
 Issues / still to-do:
 
+Currently the app will throw a key error around 50% of the time when making API calls. The error is not the same each time and varies between different endpoints.
+
 Integration of further financial measurments
 
 Logic implementation
