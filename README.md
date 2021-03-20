@@ -25,12 +25,12 @@ The app, still under development is written in Python using the requests library
 
 Issues / still to-do:
 
-Currently the app will throw a key error around 50% of the time when making API calls. The error is not the same each time and varies between different endpoints.
+The Alpha Vantage API allows only 5 calls per minute. Currently the app makes calls to 4 endpoints to retrieve the necessary data. This means the app can currently only retrieve new data once per minute
 
 Integration of further financial measurments
 
 Logic implementation
 
-GUI creation
+GUI improvements
 
 Testing
