@@ -97,6 +97,8 @@ class MainWindow(qtw.QWidget):
             cash_output.setText(str(newStock.cash))
             shEquity_output.setText(str(newStock.shareholder_equity))
             profit_output.setText(str(newStock.annual_profits))
+            newStock.assessStock()
+            print(newStock.score)
 
 app = qtw.QApplication([])
 

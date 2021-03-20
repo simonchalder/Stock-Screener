@@ -40,3 +40,13 @@ class Stock:
         self.annual_profits = int(self.income.json()['annualReports'][0]['comprehensiveIncomeNetOfTax'])
         self.score = []
         
+    def assessStock(self):
+        if self.cap <= 50000000 and self.cap < 950000000:
+            self.score.append(1)
+        else:
+            self.score.append(0)
+
+        if self.debt < (self.annual_profits * 3):
+            self.score.append(1)
+        else:
+            self.score.append(0)
